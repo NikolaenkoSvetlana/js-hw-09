@@ -7,14 +7,27 @@
     <title>Form</title>
     
     <script type="module" crossorigin src="/js-hw-09/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/js-hw-09/assets/styles-cd542d78.js">
-    <link rel="stylesheet" href="/js-hw-09/assets/styles-d9f9805b.css">
+    <link rel="modulepreload" crossorigin href="/js-hw-09/assets/styles-1f406cec.js">
+    <link rel="stylesheet" href="/js-hw-09/assets/styles-87daba68.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to Form</h1>
     </section>
+    <form class="feedback-form" autocomplete="off">
+      <div class="label">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
     
   </body>
 </html>
